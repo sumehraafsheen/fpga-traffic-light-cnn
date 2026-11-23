@@ -1,0 +1,97 @@
+# ============================================
+# FPGA / Vivado
+# ============================================
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.gen/
+*.srcs/sources_1/bd/*/hdl/
+.Xil/
+vivado_*.backup.jou
+vivado_*.backup.log
+*.xpr
+# Keep TCL scripts and exported bitstreams, ignore the rest
+# hardware/vivado/**/*.xpr  (already matched above)
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.so
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ============================================
+# PyTorch / ML
+# ============================================
+# Large model checkpoints — keep only final exports
+model/training/checkpoints/
+model/training/runs/
+wandb/
+
+# ============================================
+# Dataset (too large for git)
+# ============================================
+dataset/train/
+dataset/val/
+dataset/test/
+dataset/raw/
+*.tar.gz
+*.zip
+
+# ============================================
+# Docker
+# ============================================
+.docker/
+
+# ============================================
+# OS / Editor
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ============================================
+# Source zip (extracted into proper dirs)
+# ============================================
+source folder-*.zip
+
+# ============================================
+# Large binary files (use Git LFS or don't track)
+# ============================================
+# Uncomment the lines below if NOT using Git LFS:
+# *.bit
+# *.hwh
+# *.onnx
+# *.tmodel
+# *.tprog
+# *.tdata
+# *.pth
+# *.pt

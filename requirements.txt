@@ -1,0 +1,18 @@
+# Training
+torch>=1.12.0
+torchvision>=0.13.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
+scikit-learn>=1.0.0
+
+# ONNX export
+onnx>=1.12.0
+onnxruntime>=1.12.0
+
+# Notebooks
+jupyter>=1.0.0
+ipywidgets>=7.0.0
+
+# PYNQ (installed on the board, not needed locally)
+# pynq>=2.7.0
