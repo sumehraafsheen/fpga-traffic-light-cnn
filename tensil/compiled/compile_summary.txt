@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------------
+COMPILER SUMMARY
+-------------------------------------------------------------------------------------
+Model:                                                tl_cnn_onnx_pynqz1 
+Data type:                                            FP16BP8            
+Array size:                                           8                  
+DRAM0 memory size (vectors/scalars/bits):             1,048,576          8,388,608 20
+DRAM1 memory size (vectors/scalars/bits):             1,048,576          8,388,608 20
+Local memory size (vectors/scalars/bits):             8,192              65,536    13
+Accumulator memory size (vectors/scalars/bits):       2,048              16,384    11
+Stride #0 size (bits):                                3                  
+Stride #1 size (bits):                                3                  
+Operand #0 size (bits):                               16                 
+Operand #1 size (bits):                               24                 
+Operand #2 size (bits):                               16                 
+Instruction size (bytes):                             8                  
+DRAM0 maximum usage (vectors/scalars):                1,280              10,240    
+DRAM0 aggregate usage (vectors/scalars):              1,413              11,304    
+DRAM1 maximum usage (vectors/scalars):                833                6,664     
+DRAM1 aggregate usage (vectors/scalars):              833                6,664     
+Local memory maximum usage (vectors/scalars):         1,242              9,936     
+Local memory aggregate usage (vectors/scalars):       2,702              21,616    
+Accumumator memory maximum usage (vectors/scalars):   2,043              16,344    
+Accumumator memory aggregate usage (vectors/scalars): 3,974              31,792    
+Number of layers:                                     4                  
+Maximum number of stages:                             1                  
+Maximum number of partitions:                         2                  
+Execution latency (KCycles):                          26.977             
+Aggregate latency (KCycles):                          27.024             
+Execution energy (MUnits):                            1.492              
+Aggregate energy (MUnits):                            1.493              
+MAC efficiency (%):                                   42.329             
+Total number of instructions:                         4,762              
+Compilation time (seconds):                           6.731              
+True consts scalar size:                              6,139              
+Consts utilization (%):                               79.167             
+True MACs (KMAC):                                     730.816            
+MAC efficiency (%):                                   42.329             
+-------------------------------------------------------------------------------------
+----------------------------------------------
+ARTIFACTS
+----------------------------------------------
+Manifest:  /work/out/tl_cnn_onnx_pynqz1.tmodel
+Program:   /work/out/tl_cnn_onnx_pynqz1.tprog
+Constants: /work/out/tl_cnn_onnx_pynqz1.tdata
+----------------------------------------------

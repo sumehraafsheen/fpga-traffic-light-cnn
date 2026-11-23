@@ -1,0 +1,32 @@
+{
+  "classes": [
+    "green",
+    "red",
+    "yellow"
+  ],
+  "parameters": 6131,
+  "macs_per_image": 811104,
+  "test_images": 191,
+  "float32_test_acc": 0.9790575916230366,
+  "fixed16_approx_test_acc": 0.9790576100349426,
+  "confusion_matrix": [
+    [
+      65,
+      0,
+      1
+    ],
+    [
+      0,
+      54,
+      0
+    ],
+    [
+      1,
+      2,
+      68
+    ]
+  ],
+  "onnx_opset": 10,
+  "input": "NHWC 1x32x32x3, pixels scaled to 0..1 (graph starts with a Transpose)",
+  "output": "raw logits, argmax = class"
+}

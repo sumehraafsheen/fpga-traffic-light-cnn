@@ -52,14 +52,15 @@ model/training/runs/
 wandb/
 
 # ============================================
-# Dataset (too large for git)
+# Dataset
 # ============================================
-dataset/train/
-dataset/val/
-dataset/test/
-dataset/raw/
+# Dataset is small (~10 MB) and included in the repo.
+# If the dataset grows large, uncomment the lines below:
+# dataset/train/
+# dataset/val/
+# dataset/test/
+# dataset/raw/
 *.tar.gz
-*.zip
 
 # ============================================
 # Docker
@@ -79,9 +80,12 @@ desktop.ini
 .idea/
 
 # ============================================
-# Source zip (extracted into proper dirs)
+# Source zips (extracted into proper dirs)
 # ============================================
 source folder-*.zip
+tensil_package_v2-*.zip
+Vivado Runs-*.zip
+Kaggle dataset-*.zip
 
 # ============================================
 # Large binary files (use Git LFS or don't track)

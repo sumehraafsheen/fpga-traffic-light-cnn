@@ -1,0 +1,10 @@
+columns of the logits below: ['green', 'red', 'yellow']
+in_0.csv  true=green  float_logits=[9.633000373840332, -9.239999771118164, 2.246999979019165]  float_pred=green
+in_1.csv  true=green  float_logits=[14.88599967956543, -13.833999633789062, 1.0010000467300415]  float_pred=green
+in_2.csv  true=green  float_logits=[9.6899995803833, -9.357000350952148, 1.840000033378601]  float_pred=green
+in_3.csv  true=red  float_logits=[-2.197999954223633, 2.9679999351501465, 1.9709999561309814]  float_pred=red
+in_4.csv  true=red  float_logits=[-7.196000099182129, 10.081000328063965, 1.5490000247955322]  float_pred=red
+in_5.csv  true=red  float_logits=[-5.876999855041504, 8.222000122070312, 1.5829999446868896]  float_pred=red
+in_6.csv  true=yellow  float_logits=[-0.7039999961853027, -0.11599999666213989, 4.052999973297119]  float_pred=yellow
+in_7.csv  true=yellow  float_logits=[-0.652999997138977, 0.17399999499320984, 3.2799999713897705]  float_pred=yellow
+in_8.csv  true=yellow  float_logits=[-0.6010000109672546, 0.09600000083446503, 3.309000015258789]  float_pred=yellow
