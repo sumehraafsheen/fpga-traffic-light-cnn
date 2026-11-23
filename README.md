@@ -74,8 +74,6 @@ CARLA Dataset → PyTorch Training → ONNX Export → Tensil Compilation → Vi
 │   ├── README.md           # Dataset description & download instructions
 │   └── sample_images/      # A few sample images per class
 ├── results/
-│   ├── confusion_matrix.png
-│   ├── training_curves.png
 │   └── board_demo.png
 ├── docs/
 │   ├── figures/            # Block diagram, board photos, etc.
